@@ -2,7 +2,7 @@ class Very < Formula
   desc ""
   homepage "https://github.com/divadretlaw/very"
   url "https://github.com/divadretlaw/very/releases/download/v2.0.2/very.zip"
-  sha256 "5408b5bc88bc7c7a2c976c0fd6fee672bb5bb63d2b4f5d4aaa7839a3201c3da4"
+  sha256 "9019045b1d4b8bc4f58abf11b9ae2af3202dfc11ee5617bca7af576cb43ee779"
 
   bottle :unneeded
 
