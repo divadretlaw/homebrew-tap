@@ -4,8 +4,6 @@ class Very < Formula
   url "https://github.com/divadretlaw/very/releases/download/{{TAG}}/very.zip"
   sha256 "{{SHASUM}}"
 
-  bottle :unneeded
-
   def install
     bin.install "very"
   end
