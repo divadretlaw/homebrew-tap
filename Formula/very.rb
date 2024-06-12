@@ -2,7 +2,7 @@ class Very < Formula
   desc ""
   homepage "https://github.com/divadretlaw/very"
   url "https://github.com/divadretlaw/very/releases/download/v3.1.0/very.zip"
-  sha256 "f18d524055617dcaad22d0b4c120dcd4fec780707f4138d4276fbdb1686b1ec2"
+  sha256 "13c07abbf1954d353370877f3e4f789948d0d7297a44794e9f9701962917ede7"
 
   def install
     bin.install "very"
