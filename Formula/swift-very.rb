@@ -1,11 +1,12 @@
 class SwiftVery < Formula
   desc 'A collection of useful swift package tools'
   homepage 'https://github.com/divadretlaw/swift-very'
-  url 'https://github.com/divadretlaw/swift-very/releases/download/0.1.0/swift-very.zip'
-  sha256 'e6a6c86cea56025987206fc17b9f5b28a2850dc983e15415a179dadb8e3e83fc'
+  url 'https://github.com/divadretlaw/swift-very/releases/download/0.1.1/swift-very.zip'
+  sha256 'c2bfa04ff7760691ae894c47a2145a26dadd9393edea7e9c444b0c0d63b4c0cb'
 
   def install
     bin.install 'swift-very'
+    lib.install 'libSwiftPM.dylib'
   end
 
   test do
