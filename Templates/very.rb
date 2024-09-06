@@ -1,14 +1,15 @@
+#  A collection of useful commandline tools
 class Very < Formula
-  desc ""
-  homepage "https://github.com/divadretlaw/very"
-  url "https://github.com/divadretlaw/very/releases/download/{{TAG}}/very.zip"
-  sha256 "{{SHASUM}}"
+  desc 'A collection of useful commandline tools'
+  homepage 'https://github.com/divadretlaw/very'
+  url 'https://github.com/divadretlaw/very/releases/download/{{TAG}}/very.zip'
+  sha256 '{{SHASUM}}'
 
   def install
-    bin.install "very"
+    bin.install 'very'
   end
 
   test do
-    system "#{bin}/very", "--version"
+    system "#{bin}/very", '--version'
   end
 end
