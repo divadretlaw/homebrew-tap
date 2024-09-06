@@ -6,6 +6,7 @@ class SwiftVery < Formula
 
   def install
     bin.install 'swift-very'
+    lib.install 'libSwiftPM.dylib'
   end
 
   test do
