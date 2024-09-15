@@ -1,8 +1,9 @@
+#  A collection of useful commandline tools
 class Very < Formula
   desc 'A collection of useful commandline tools'
   homepage 'https://github.com/divadretlaw/very'
-  url 'https://github.com/divadretlaw/very/releases/download/v3.1.0/very.zip'
-  sha256 '8b26c73947a7fad283426d8f7437547f9bf7cd342e9dfcaf68ba7bb5cee7d707'
+  url 'https://github.com/divadretlaw/very/releases/download/3.2.0/very.zip'
+  sha256 'daa98baec337b10d71f95458492936cd8f3879463bc3f4cff5933a7e2f298f2e'
 
   def install
     bin.install 'very'
