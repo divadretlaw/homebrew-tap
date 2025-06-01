@@ -1,8 +1,8 @@
 class SwiftVery < Formula
   desc 'A collection of useful swift package tools'
   homepage 'https://github.com/divadretlaw/swift-very'
-  url 'https://github.com/divadretlaw/swift-very/releases/download/0.5.0/swift-very.zip'
-  sha256 'a59d85dc1a721b57df5ee6e66a0d371d2ab7831d8466591cb2bbfb0095a18fc2'
+  url 'https://github.com/divadretlaw/swift-very/releases/download/0.8.0/swift-very.zip'
+  sha256 '1cd0d947ff26ecedfbcd706d9e9aa7becd47498d421e08ce8a0697ede2895f60'
 
   def install
     bin.install 'swift-very'
